@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "InstitutTirhaka",
+    "name": "Institut Tirhaka",
     "slug": "InstitutTirhaka",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,22 +9,57 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#D51A65"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "gnimis.tirhaka",
+      "buildNumber": "1"
     },
     "android": {
+      "versionCode": 1,
+      "package": "gnimis.tirhaka",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#D51A65"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "$(PRODUCT_NAME) demande a avoire acces a votre galerie."
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/Great_Vibes/GreatVibes-Regular.ttf"
+          ]
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notif.png",
+          "color": "#D51A65",
+          "sounds": []
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0babd001-2fcf-4dd6-ab77-8df9d11bddf8"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "owner": "siblonet"
   }
 }

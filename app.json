@@ -22,6 +22,7 @@
     "android": {
       "versionCode": 1,
       "package": "gnimis.tirhaka",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#D51A65"

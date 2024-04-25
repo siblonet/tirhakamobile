@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "721239544873",
+    "project_id": "tirhakamobile",
+    "storage_bucket": "tirhakamobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721239544873:android:1244a2e9bf88c4c8a63838",
+        "android_client_info": {
+          "package_name": "gnimis.tirhaka"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSEbVTMy3WWaHSqbYMEGX5Cb29OgS8YzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

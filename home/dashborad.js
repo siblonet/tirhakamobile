@@ -493,7 +493,7 @@ export default function DashBoard({ navigation }) {
                                             elevation: 5,
                                             width: "37%",
                                             zIndex: 1,
-                                            opacity: 0.7
+                                            opacity: 0.8
                                         }
                                     }
                                     colors={["#99e6ae", "#009de0"]}
@@ -509,7 +509,7 @@ export default function DashBoard({ navigation }) {
                                             alignItems: "center",
                                             justifyContent: "space-between",
                                             paddingVertical: 5,
-                                            paddingHorizontal: 7,
+                                            paddingHorizontal: 5,
                                             position: "relative",
 
                                         }}
@@ -526,7 +526,7 @@ export default function DashBoard({ navigation }) {
                                             Service Domicile
                                         </Text>
 
-                                        <Ionicons name="chevron-forward" size={20} style={{ color: "#D51A65", left: -15 }} />
+                                        <Ionicons name="chevron-forward" size={20} style={{ color: "#D51A65" }} />
                                     </TouchableOpacity>
                                 </LinearGradient>
                             </View>
